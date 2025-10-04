@@ -1,0 +1,33 @@
+Package: genokits
+Title: A Package for Downloading and Managing Genome Data from NCBI
+Version: 0.1.0
+Authors@R: 
+    person("Jinming", "Li", , "lijinming@cahec.cn", role = c("aut", "cre"))
+Description: This package provides functions to download and manage genome data from NCBI..
+License: MIT + file LICENSE
+URL: https://github.com/jimrpy/genokits
+BugReports: https://github.com/jimrpy/genokits/issues
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    crul,
+    magrittr,
+    dplyr,
+    tidyr,
+    readr,
+    stringr,
+    xml2,
+    glue,
+    parallel,
+    purrr,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    covr
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
