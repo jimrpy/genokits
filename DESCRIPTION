@@ -20,7 +20,9 @@ Imports:
     glue,
     parallel,
     purrr,
-    utils
+    utils,
+    zip,
+    fs
 Suggests:
     testthat (>= 3.0.0),
     knitr,

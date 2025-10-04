@@ -1,5 +1,5 @@
 ^genokits\.Rproj$
 ^\.Rproj\.user$
-^*\.Rproj$
+^.*\.Rproj$
 ^\.Rhistory$
 ^\.RData$

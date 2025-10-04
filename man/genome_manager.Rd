@@ -4,12 +4,12 @@
 \alias{genome_manager}
 \title{Genome Data Management System}
 \usage{
-genome_manager(accession, cache_dir = NULL)
+genome_manager(accession, db_path = NULL)
 }
 \arguments{
 \item{accession}{Genome accession number}
 
-\item{cache_dir}{Directory to cache downloaded data}
+\item{db_path}{Directory to store genome data. If NULL, uses the current genome database.}
 }
 \value{
 A genome data manager object with methods for data access
