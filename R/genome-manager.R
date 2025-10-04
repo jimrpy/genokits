@@ -21,6 +21,7 @@ genome_manager <- function(accession, cache_dir = NULL) {
     cache_dir <- get_default_cache_dir()
   }
 
+
   # Create the manager object
   manager <- list(
     accession = accession,
